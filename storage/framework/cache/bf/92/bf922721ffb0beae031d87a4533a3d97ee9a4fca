@@ -1,0 +1,43 @@
+1554155227a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:936:"description = "Navigation bar"
+==
+<section id="navbar" class="m-b-3">
+	<nav class="navbar navbar-dark bg-inverse navbar-fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="{{ 'features'|page }}">Januar Wicaksono</a>
+			<ul class="nav navbar-nav pull-xs-right">
+				<li class="nav-item{{ this.page.baseFileName == 'home' ? ' active' }}">
+					<a class="nav-link" href="{{ 'home'|page }}">Home</a>
+				</li>
+				<li class="nav-item{{ this.page.baseFileName == 'about' ? ' active' }}">
+					<a class="nav-link" href="{{ 'about'|page }}">About Us</a>
+				</li>
+				<li class="nav-item{{ this.page.baseFileName == 'contact' ? ' active' }}">
+					<a class="nav-link" href="{{ 'contact'|page }}">Contact Us</a>
+				</li>
+				<li class="nav-item{{ this.page.baseFileName == 'blog' ? ' active' }}">
+					<a class="nav-link" href="{{ 'blog'|page }}">Blog</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</section>";s:5:"mtime";i:1554154625;s:6:"markup";s:900:"<section id="navbar" class="m-b-3">
+	<nav class="navbar navbar-dark bg-inverse navbar-fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="{{ 'features'|page }}">Januar Wicaksono</a>
+			<ul class="nav navbar-nav pull-xs-right">
+				<li class="nav-item{{ this.page.baseFileName == 'home' ? ' active' }}">
+					<a class="nav-link" href="{{ 'home'|page }}">Home</a>
+				</li>
+				<li class="nav-item{{ this.page.baseFileName == 'about' ? ' active' }}">
+					<a class="nav-link" href="{{ 'about'|page }}">About Us</a>
+				</li>
+				<li class="nav-item{{ this.page.baseFileName == 'contact' ? ' active' }}">
+					<a class="nav-link" href="{{ 'contact'|page }}">Contact Us</a>
+				</li>
+				<li class="nav-item{{ this.page.baseFileName == 'blog' ? ' active' }}">
+					<a class="nav-link" href="{{ 'blog'|page }}">Blog</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</section>";s:4:"code";N;s:11:"description";s:14:"Navigation bar";}}
